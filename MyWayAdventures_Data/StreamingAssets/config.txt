@@ -1,0 +1,7 @@
+ruta_base_datos=C:\Users\Casa\Desktop\CICESE\MyWayAdventures\Assets\StreamingAssets\Default\Data\Adventure.db
+ruta_tmp_acciones=C:\Users\REDES-3\Desktop\Mundo_Wixarika\Mundo Wixarika\Assets\StreamingAssets\Default\Data\Actions\actions.txt
+ruta_carpeta_imagenes=C:/Users/REDES-2/Desktop/Documentos/Mundo_Wixarika/Mundo Wixarika/Assets/StreamingAssets\Default\Photos\
+ruta_carpeta_logs_sesion=C:/Users/REDES-2/Desktop/Documentos/Mundo_Wixarika/Mundo Wixarika/Assets/StreamingAssets\Archivos_Log\
+direccion_servidor=158.97.121.143:3000
+prefijo_experimento=Normal
+usar_en_linea=false

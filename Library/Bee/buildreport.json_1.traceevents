@@ -1,0 +1,576 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1674497410168071, "dur": 2822123, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674497410168337, "dur": 2076, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674497410170416, "dur": 33424, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674497410203843, "dur": 921973, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674497411125818, "dur": 1851589, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674497412977410, "dur": 12784, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674497412990951, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1674497410920519, "dur": 173871, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674497410921646, "dur": 52584, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674497411075933, "dur": 5520, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674497411081471, "dur": 12904, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674497411082300, "dur": 11378, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674497411100362, "dur": 1519, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1674497411099533, "dur": 2382, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674497412991087, "dur": 194, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1674497411169707, "dur":1171, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497411170885, "dur":98, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1674497411171013, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1674497411171026, "dur":311, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1674497411171359, "dur":528, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497411171887, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412962909, "dur":104, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963013, "dur":61, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963074, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963078, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963089, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963090, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963094, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963095, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963100, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963101, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963105, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963106, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963110, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963111, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963116, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963117, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963122, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963139, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412963193, "dur":2355, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1674497411171639, "dur":383, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411172025, "dur":4165, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411176248, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674497411176270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411177278, "dur":669, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674497411177953, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674497411178010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411178288, "dur":11485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1674497411189779, "dur":15767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674497411205550, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411205558, "dur":45765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674497411251356, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1674497411251451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411251455, "dur":7788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1674497411259287, "dur":39477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures.exe" }}
+,{ "pid":12345, "tid":1, "ts":1674497411298772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411298780, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures.exe" }}
+,{ "pid":12345, "tid":1, "ts":1674497411300576, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1674497411300693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411300895, "dur":13720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1674497411314654, "dur":19274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411333933, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411334238, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411335775, "dur":22428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411358211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411358335, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411359889, "dur":43696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411403592, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411403603, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411405036, "dur":172370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411577412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411577421, "dur":6102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411583550, "dur":99450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411683007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411683018, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411684040, "dur":44583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411728629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411728637, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411729666, "dur":18937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411748609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411748618, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411750052, "dur":41339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411791396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411791408, "dur":8985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411800426, "dur":19662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411820095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411820105, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411821196, "dur":40995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411862196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411862203, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411863319, "dur":51794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411915119, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497411915129, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497411916652, "dur":162361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497412079047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497412079056, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497412081022, "dur":367095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497412448124, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497412448133, "dur":3994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497412452162, "dur":507516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497412959685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674497412959690, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674497412962875, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1674497412962878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411172163, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411172164, "dur":4028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411176248, "dur":32957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1674497411209212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411209508, "dur":41865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1674497411251407, "dur":49153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411300564, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411300790, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411302519, "dur":69793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411372319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411372355, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411374310, "dur":19638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411393956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411393970, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411395799, "dur":20517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411416323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411416332, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411417579, "dur":26812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411444399, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411444435, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411445597, "dur":25862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411471465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411471474, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411472766, "dur":33494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411506265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411506274, "dur":6002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411512305, "dur":139048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411651386, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411651401, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411654206, "dur":30648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411684859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411684867, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411686082, "dur":36559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411722647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411722655, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411723811, "dur":74617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411798434, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411798444, "dur":6624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411805099, "dur":88454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411893559, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411893569, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411894608, "dur":22755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411917367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497411917376, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497411918294, "dur":84140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412002440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497412002448, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412003610, "dur":64831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412068447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497412068456, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412069419, "dur":36476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412105901, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497412105911, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412107001, "dur":243790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412350798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497412350806, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412352350, "dur":127924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412480282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497412480297, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412483410, "dur":288043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412771456, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674497412771462, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674497412772581, "dur":190328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411172036, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411172036, "dur":4162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411176263, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1674497411176435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411183847, "dur":13646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1674497411197609, "dur":52446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674497411250065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411250078, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1674497411251431, "dur":103336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411354777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411354897, "dur":6805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411361752, "dur":42518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411404276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411404284, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411406048, "dur":25799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411431855, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411431865, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411432912, "dur":16630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411449551, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411449563, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411450759, "dur":60401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411511166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411511173, "dur":5189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411516403, "dur":282525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411798933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411798940, "dur":22050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411821019, "dur":45256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411866281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411866289, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411867465, "dur":17783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411885254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497411885263, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497411886494, "dur":157798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412044300, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497412044312, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412045449, "dur":880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412046336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497412046345, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412047414, "dur":24100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412071521, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497412071531, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412072576, "dur":1006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412073588, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497412073598, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412074892, "dur":113065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412187963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497412187972, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412189075, "dur":96358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412285439, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497412285448, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412286596, "dur":284606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412571208, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497412571217, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412573874, "dur":187368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412761246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674497412761255, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674497412763177, "dur":199751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411171832, "dur":253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411172085, "dur":4183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411176268, "dur":10714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1674497411186989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411186999, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1674497411190180, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674497411190276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411190283, "dur":283577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674497411473898, "dur":43949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411517853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411517862, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411518922, "dur":47207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411566133, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411566140, "dur":18368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411584545, "dur":23612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411608163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411608172, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411609465, "dur":77417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411686888, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411686897, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411688097, "dur":19778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411707878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411707885, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411709081, "dur":55491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411764580, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411764591, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411766267, "dur":23696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411789967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411789975, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411791112, "dur":50894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411842012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411842021, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411843144, "dur":17743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411860893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411860902, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411861880, "dur":55022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411916906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497411916918, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497411918092, "dur":122248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412040347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497412040356, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412042175, "dur":1169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412043376, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497412043385, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412044648, "dur":62077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412106731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497412106739, "dur":5685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412112452, "dur":160600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412273058, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497412273067, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412274805, "dur":301564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412576376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497412576384, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412578007, "dur":199793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412777804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674497412777809, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674497412778601, "dur":184318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411171669, "dur":409, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411172078, "dur":4208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411176287, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1674497411176527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411185114, "dur":11430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1674497411196584, "dur":12621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1674497411209211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411209221, "dur":43486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1674497411252747, "dur":482257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411735011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411735018, "dur":34214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411769272, "dur":31003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411800280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411800288, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411802135, "dur":20091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411822233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411822243, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411823445, "dur":31879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411855330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411855338, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411856300, "dur":29511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411885817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411885825, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411886721, "dur":64283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411951009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497411951018, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497411951984, "dur":344012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497412296002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412296010, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497412297419, "dur":82110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497412379536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412379545, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497412380630, "dur":203290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497412583926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412583935, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497412585869, "dur":3085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497412588959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412589593, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674497412591253, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1674497412591347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412591532, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1674497412592477, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/StreamingAssets/Default/Photos/default_M.png" }}
+,{ "pid":12345, "tid":5, "ts":1674497412592585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412593041, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/StreamingAssets/Default/Photos/default_M.png" }}
+,{ "pid":12345, "tid":5, "ts":1674497412594297, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/StreamingAssets/Default/Photos/default_H.png" }}
+,{ "pid":12345, "tid":5, "ts":1674497412594380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412594460, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/StreamingAssets/Default/Photos/default_H.png" }}
+,{ "pid":12345, "tid":5, "ts":1674497412595677, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/StreamingAssets/Default/Data/views/vistas.sql" }}
+,{ "pid":12345, "tid":5, "ts":1674497412595747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412596017, "dur":7229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/StreamingAssets/Default/Data/views/vistas.sql" }}
+,{ "pid":12345, "tid":5, "ts":1674497412603277, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/StreamingAssets/Default/Data/triggers/triggers.sql" }}
+,{ "pid":12345, "tid":5, "ts":1674497412603353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412603799, "dur":7228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/StreamingAssets/Default/Data/triggers/triggers.sql" }}
+,{ "pid":12345, "tid":5, "ts":1674497412611057, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/StreamingAssets/Default/Data/Adventure.db" }}
+,{ "pid":12345, "tid":5, "ts":1674497412611094, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412611111, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/StreamingAssets/Default/Data/Adventure.db" }}
+,{ "pid":12345, "tid":5, "ts":1674497412613745, "dur":6643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/StreamingAssets/config.txt" }}
+,{ "pid":12345, "tid":5, "ts":1674497412620394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412620403, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/StreamingAssets/config.txt" }}
+,{ "pid":12345, "tid":5, "ts":1674497412621602, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1674497412621638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412621671, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1674497412622895, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674497412622926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412622931, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674497412624003, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674497412624034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412624040, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674497412625804, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674497412625839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412625845, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674497412628026, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674497412628057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412628062, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674497412629402, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1674497412629540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412629568, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1674497412630705, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674497412630735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412630741, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1674497412632992, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1674497412633025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412633030, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1674497412634626, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1674497412634654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412634658, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1674497412635381, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1674497412635406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412635409, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1674497412636164, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674497412636196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412636202, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1674497412637161, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1674497412637245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674497412637248, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1674497412638054, "dur":324859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411172075, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411172075, "dur":4126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411176264, "dur":11342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1674497411187612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411187621, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1674497411189761, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1674497411189865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411189913, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1674497411193147, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1674497411193265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411193639, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1674497411196594, "dur":783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1674497411197385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411197450, "dur":53786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1674497411251271, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1674497411251386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411251394, "dur":289277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1674497411540710, "dur":79888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411620605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411620614, "dur":29340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411649995, "dur":57616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411707617, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411707627, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411709020, "dur":37179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411746206, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411746215, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411747568, "dur":40875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411788449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411788457, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411789748, "dur":104473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411894227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411894236, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411895496, "dur":63882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411959384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411959392, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411960546, "dur":23638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411984190, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497411984200, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497411985289, "dur":73746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412059041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497412059048, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412060199, "dur":35288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412095492, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497412095502, "dur":6784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412102320, "dur":86494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412188819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497412188826, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412189800, "dur":67670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412257477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497412257486, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412258524, "dur":52817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412311347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497412311355, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412312337, "dur":172163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412484509, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497412484518, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412486506, "dur":206358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Mono.Data.SqliteClient.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412692870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674497412692884, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Mono.Data.SqliteClient.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674497412694122, "dur":268797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411172297, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411172297, "dur":3987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411176286, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674497411176532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411184089, "dur":305246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674497411489375, "dur":61376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411550757, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411550766, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411551770, "dur":96741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411648518, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411648528, "dur":9363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411657923, "dur":20899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411678828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411678837, "dur":2963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411681832, "dur":46170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411728008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411728016, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411731947, "dur":63210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411795164, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411795173, "dur":6310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411801514, "dur":36496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411838017, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497411838028, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497411839028, "dur":192515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412031550, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412031559, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412034401, "dur":74045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412108451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412108459, "dur":15563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412124048, "dur":79068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412203122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412203155, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412204278, "dur":129984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412334268, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412334277, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412335313, "dur":101466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412436786, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412436796, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412438396, "dur":54819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412493221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412493230, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412494484, "dur":114899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412609388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412609395, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674497412610655, "dur":16581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/StreamingAssets/Default/Data/Actions/actions.txt" }}
+,{ "pid":12345, "tid":7, "ts":1674497412627242, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412627623, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/StreamingAssets/Default/Data/Actions/actions.txt" }}
+,{ "pid":12345, "tid":7, "ts":1674497412629422, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1674497412630436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412630444, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1674497412631527, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674497412631557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412631564, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1674497412632619, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674497412632652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412632658, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674497412634315, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674497412634341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412634346, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674497412635221, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674497412635252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412635257, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1674497412636258, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1674497412636309, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674497412636312, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1674497412637280, "dur":325627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411172571, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411172572, "dur":3695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411176268, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1674497411176416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411177931, "dur":11767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1674497411189737, "dur":15639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1674497411205384, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411205396, "dur":45967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1674497411251393, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1674497411251510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411251515, "dur":5794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1674497411257350, "dur":85798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1674497411343154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411343161, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1674497411345159, "dur":43104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411388270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411388279, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411389619, "dur":41374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411431000, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411431011, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411432532, "dur":17129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411449665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411449671, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411450768, "dur":17085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411467859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411467868, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411468942, "dur":96699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411565647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411565657, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411566902, "dur":130497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411697406, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411697417, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411700533, "dur":75133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411775675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411775684, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411776971, "dur":47052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411824029, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411824038, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411825450, "dur":26220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411851678, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411851689, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411854319, "dur":18160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411872485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411872493, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411873612, "dur":45366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411918985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497411918994, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497411920067, "dur":146053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412066126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497412066135, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412067196, "dur":36685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412103887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497412103895, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412104898, "dur":173565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412278470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497412278478, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412280111, "dur":274720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412554840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497412554848, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412557782, "dur":79403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MyWayAdventures_Data/Managed/Mono.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412637188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674497412637195, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"MyWayAdventures_Data/Managed/Mono.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674497412638260, "dur":324657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674497412966970, "dur":2369, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1674497412991347, "dur": 608, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1674497412990927, "dur": 1057, "ph": "X", "name": "Write chrome-trace events", "args": {} },

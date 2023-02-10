@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:\Users\Casa\Desktop\CICESE\MyWayAdventures\Prueba.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1668"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,15:mainsqlite_sequence"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE IF NOT EXISTS &quot;estados&quot; (
+	&quot;estado_id&quot;	INTEGER NOT NULL UNIQUE,
+	&quot;nombre&quot;	TEXT,
+	PRIMARY KEY(&quot;estado_id&quot; AUTOINCREMENT)
+);
+CREATE TABLE IF NOT EXISTS &quot;usuarios&quot; (
+	&quot;usuario_id&quot;	INTEGER UNIQUE,
+	&quot;nombre&quot;	TEXT,
+	&quot;apellidoP&quot;	TEXT,
+	&quot;apellidoM&quot;	TEXT,
+	&quot;edad&quot;	INTEGER,
+	&quot;estado&quot;	TEXT,
+	&quot;municipio&quot;	TEXT,
+	&quot;localidad&quot;	TEXT,
+	FOREIGN KEY(&quot;estado&quot;) REFERENCES &quot;estados&quot;(&quot;nombre&quot;),
+	PRIMARY KEY(&quot;usuario_id&quot; AUTOINCREMENT)
+);
+INSERT INTO &quot;estados&quot; VALUES (1,'Aguascalientes');
+INSERT INTO &quot;estados&quot; VALUES (2,'Baja California');
+INSERT INTO &quot;estados&quot; VALUES (3,'Baja California Sur');
+INSERT INTO &quot;estados&quot; VALUES (4,'Campeche');
+INSERT INTO &quot;estados&quot; VALUES (5,'Chiapas');
+INSERT INTO &quot;estados&quot; VALUES (6,'Chihuahua');
+INSERT INTO &quot;estados&quot; VALUES (7,'Coahuila');
+INSERT INTO &quot;estados&quot; VALUES (8,'Colima');
+INSERT INTO &quot;estados&quot; VALUES (9,'Distrito Federal');
+INSERT INTO &quot;estados&quot; VALUES (10,'Durango');
+INSERT INTO &quot;estados&quot; VALUES (11,'Guanajuato');
+INSERT INTO &quot;estados&quot; VALUES (12,'Guerrero');
+INSERT INTO &quot;estados&quot; VALUES (13,'Hidalgo');
+INSERT INTO &quot;estados&quot; VALUES (14,'Jalisco');
+INSERT INTO &quot;estados&quot; VALUES (15,'México');
+INSERT INTO &quot;estados&quot; VALUES (16,'Michoacán');
+INSERT INTO &quot;estados&quot; VALUES (17,'Morelos');
+INSERT INTO &quot;estados&quot; VALUES (18,'Nayarit');
+INSERT INTO &quot;estados&quot; VALUES (19,'Nuevo León');
+INSERT INTO &quot;estados&quot; VALUES (20,'Oaxaca');
+INSERT INTO &quot;estados&quot; VALUES (21,'Puebla');
+INSERT INTO &quot;estados&quot; VALUES (22,'Querétaro');
+INSERT INTO &quot;estados&quot; VALUES (23,'Quintana Roo');
+INSERT INTO &quot;estados&quot; VALUES (24,'San Luis Potosí');
+INSERT INTO &quot;estados&quot; VALUES (25,'Sinaloa');
+INSERT INTO &quot;estados&quot; VALUES (26,'Sonora');
+INSERT INTO &quot;estados&quot; VALUES (27,'Tabasco');
+INSERT INTO &quot;estados&quot; VALUES (28,'Tamaulipas');
+INSERT INTO &quot;estados&quot; VALUES (29,'Tlaxcala');
+INSERT INTO &quot;estados&quot; VALUES (30,'Veracruz');
+INSERT INTO &quot;estados&quot; VALUES (31,'Yucatán');
+INSERT INTO &quot;estados&quot; VALUES (32,'Zacatecas');</sql><current_tab id="0"/></tab_sql></sqlb_project>
